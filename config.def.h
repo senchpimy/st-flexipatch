@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Cascadia Code:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Cascadia Code:pixelsize=17:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* spare fonts */
 static char *font2[] = {
-    "Symbols Nerd Font:pixelsize=18:antialias=true:autohint=true"
+    "Symbols Nerd Font:pixelsize=20:antialias=true:autohint=true"
     /*	"inconsolata for powerline:pixelsize=12:antialias=true:autohint=true",
      */
     /*	"hack nerd font mono:pixelsize=11:antialias=true:autohint=true", */
