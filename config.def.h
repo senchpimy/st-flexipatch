@@ -359,8 +359,10 @@ static MouseShortcut mshortcuts[] = {
     {XK_ANY_MOD, Button2, selpaste, {.i = 0}, 1},
 #endif // CLIPBOARD_PATCH
 #if SCROLLBACK_MOUSE_PATCH
-    {ShiftMask, Button4, kscrollup, {.i = 1}, 0, S_PRI},
-    {ShiftMask, Button5, kscrolldown, {.i = 1}, 0, S_PRI},
+    //{ShiftMask, Button4, kscrollup, {.i = 1}, 0, S_PRI},
+    //{ShiftMask, Button5, kscrolldown, {.i = 1}, 0, S_PRI},
+    {XK_ANY_MOD, Button4, kscrollup, {.i = 1}, 0, S_PRI},
+    {XK_ANY_MOD, Button5, kscrolldown, {.i = 1}, 0, S_PRI},
 #elif UNIVERSCROLL_PATCH
     {XK_ANY_MOD, Button4, ttysend, {.s = "\033[5;2~"}, 0, S_PRI},
     {XK_ANY_MOD, Button5, ttysend, {.s = "\033[6;2~"}, 0, S_PRI},

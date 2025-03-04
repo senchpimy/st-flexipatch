@@ -38,6 +38,10 @@
    - Agrega soporte para gráficos SIXEL.
    - [Más información](https://gist.github.com/saitoha/70e0fdf22e3e8f63ce937c7f7da71809)
 
+### 10. **SCROLLBACK_PATCH**
+   - Permite subir y bajar en el historial de la terminal
+   - [Más información](https://st.suckless.org/patches/scrollback/)
+
 ## Instalación
 1. Configurar los parches editando `patches.def.h` según las preferencias.
 2. Compilar e instalar:
